@@ -1,4 +1,5 @@
 import React from "react";
+import "./projects.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -15,8 +16,8 @@ import codeQuiz from "../../assets/codeQuiz.png";
 function Projects() {
     return (
         <Container>
-            <Row>
-                <Col className="col-lg-4 col-sm-12">
+            <Row className="projects">
+                <Col className="project-card col-lg-4 col-sm-12">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={topStocksPic} />
                     <Card.Body>
@@ -37,7 +38,7 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="col-lg-4 col-sm-12">
+                <Col className="project-card col-lg-4 col-sm-12">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={gameOn} />
                     <Card.Body>
@@ -59,7 +60,7 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="col-lg-4 col-sm-12">
+                <Col className="project-card col-lg-4 col-sm-12">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={weatherDashboard} />
                     <Card.Body>
@@ -81,7 +82,7 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="col-lg-4 col-sm-12">
+                <Col className="project-card col-lg-4 col-sm-12">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={workDayScheduler} />
                     <Card.Body>
@@ -103,7 +104,7 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="col-lg-4 col-sm-12">
+                <Col className="project-card col-lg-4 col-sm-12">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={teamProfileGenerator} />
                     <Card.Body>
@@ -125,7 +126,7 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="col-lg-4 col-sm-12">
+                <Col className="project-card col-lg-4 col-sm-12">
                 <Card style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={codeQuiz} />
                     <Card.Body>

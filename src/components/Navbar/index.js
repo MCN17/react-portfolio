@@ -7,7 +7,7 @@ import "./navbar.css";
 
 function Navbar() {
     return (
-        <div class="container-fluid">
+        <div className="container-fluid">
             <nav className="nav d-flex flex-column flex-wrap">
                 <img className="mt-3 mb-3" src={portfolioPic} alt="close up of face"></img>
                 <ul>

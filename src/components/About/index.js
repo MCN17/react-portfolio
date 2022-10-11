@@ -6,7 +6,7 @@ function About() {
     return (
         <div className="container">
             <div className="row">
-                <div className="col">
+                <div className="col text-center">
                     <h1>About</h1>
                     {/* <img src={portfolioPic} alt="close up of face"></img> */}
                     <p> Web developer with a passion for working in teams and a background in sales, customer service, and home renovations. Currently pursuing a certificate in full stack web development from Carleton University and developed skills in HTML5, JavaScript, and CSS.
