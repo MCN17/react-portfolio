@@ -1,6 +1,7 @@
 import React from "react";
 import "./resume.css";
-import { FaFileDownload } from "react-icons/fa";
+import { FaGoogleDrive } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
 
 function Resume() {
     return (
@@ -14,7 +15,11 @@ function Resume() {
                         <li>JavaScript</li>
                         <li>CSS</li>
                     </ul>
-                    <a href="/" download="MartinNolanResume.pdf">Resume</a>
+                    <p>You can view my resume here!
+                    <IconContext.Provider value={{ size:"2em"}}>
+                        <a href="https://docs.google.com/document/d/1mQRFZvbAm-RYVsUiqLibsyEUNsGMPlt8qeIxUFIZRmI/edit?usp=sharing" target="blank"><FaGoogleDrive className="icons"/></a>
+                    </IconContext.Provider>
+                    </p>
                 </div>
             </div>
         </div>
