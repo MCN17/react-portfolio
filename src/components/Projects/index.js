@@ -17,10 +17,10 @@ function Projects() {
     return (
         <Container>
             <Row className="projects">
-                <Col className="project-card col-lg-4 col-sm-12">
-                <Card style={{ width: '18rem' }}>
+                <Col className="project-card col-lg-4 col-sm-12 mt-5">
+                <Card className="card-content h-100" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={topStocksPic} />
-                    <Card.Body>
+                    <Card.Body className="card-body">
                         <Card.Title className="text-center">Top Stocks</Card.Title>
                         <Card.Text>
                         Top Stocks is a basic stock scanner where users can search for any stock they are interested in to get information and news on that stock.
@@ -38,8 +38,8 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="project-card col-lg-4 col-sm-12">
-                <Card style={{ width: '18rem' }}>
+                <Col className="project-card col-lg-4 col-sm-12 mt-5">
+                <Card className="card-content h-100" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={gameOn} />
                     <Card.Body>
                         <Card.Title className="text-center">Game On!</Card.Title>
@@ -60,8 +60,8 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="project-card col-lg-4 col-sm-12">
-                <Card style={{ width: '18rem' }}>
+                <Col className="project-card col-lg-4 col-sm-12 mt-5">
+                <Card className="card-content h-100" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={weatherDashboard} />
                     <Card.Body>
                         <Card.Title className="text-center">Weather Dashboard</Card.Title>
@@ -82,8 +82,8 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="project-card col-lg-4 col-sm-12">
-                <Card style={{ width: '18rem' }}>
+                <Col className="project-card col-lg-4 col-sm-12 mt-3">
+                <Card className="card-content h-100" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={workDayScheduler} />
                     <Card.Body>
                         <Card.Title className="text-center">Work Day Scheduler</Card.Title>
@@ -104,8 +104,8 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="project-card col-lg-4 col-sm-12">
-                <Card style={{ width: '18rem' }}>
+                <Col className="project-card col-lg-4 col-sm-12 mt-3">
+                <Card className="card-content h-100" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={teamProfileGenerator} />
                     <Card.Body>
                         <Card.Title className="text-center">Team Profile Generator</Card.Title>
@@ -126,8 +126,8 @@ function Projects() {
                 </Card>
                 </Col>
 
-                <Col className="project-card col-lg-4 col-sm-12">
-                <Card style={{ width: '18rem' }}>
+                <Col className="project-card col-lg-4 col-sm-12 mt-3">
+                <Card className="card-content h-100" style={{ width: '18rem' }}>
                     <Card.Img variant="top" src={codeQuiz} />
                     <Card.Body>
                         <Card.Title className="text-center">Code Quiz</Card.Title>

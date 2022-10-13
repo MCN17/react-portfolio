@@ -1,5 +1,15 @@
 .project-card a {
     text-decoration: none;
+    color: #353535
+}
+
+.card-content {
+    border: 1px solid #ffffff;
+}
+
+.card-body {
+    background-color: #D9D9D9;
+    color: #353535;
 }
 
 .projects {
