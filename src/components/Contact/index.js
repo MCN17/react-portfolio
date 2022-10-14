@@ -47,7 +47,7 @@ function Contact() {
     return (
         <div className="container">
             <div className="row justify-content-center">
-                <div class="col-4 mt-5">
+                <div class="col-lg-4 mt-5">
                     <div className="text-center">
                     <h1 className="contact-body mb-3" data-testid="h1tag">Contact me</h1>
                     </div>

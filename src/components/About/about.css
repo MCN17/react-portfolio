@@ -6,3 +6,16 @@
 .error-text {
     color: #D9D9D9
 }
+
+@media only screen and (max-width: 575px) {
+
+    .about-body h1 {
+        margin: 6rem 0rem 0rem 0rem;
+    }
+
+    .about-body p {
+        position: absolute;
+        margin: 1rem 0.5rem ;
+    }
+
+}

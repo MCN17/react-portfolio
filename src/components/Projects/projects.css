@@ -16,6 +16,13 @@
     margin-left: 5rem;
 }
 
-/* .project-page {
-    background-color: #284B63;
-} */
+@media only screen and (max-width: 575px) {
+
+    .projects {
+        align-items: center;
+        margin: 5rem 2rem;
+        padding: 0px;
+        position: absolute;
+    }
+
+}
