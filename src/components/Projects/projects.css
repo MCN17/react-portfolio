@@ -16,7 +16,7 @@
     margin-left: 5rem;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 450px) {
 
     .projects {
         align-items: center;
@@ -26,7 +26,7 @@
     }
 
     .project-card {
-        width: 10rem;
+        width: 20rem;
     }
 
 }
