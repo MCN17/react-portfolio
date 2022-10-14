@@ -25,4 +25,8 @@
         position: absolute;
     }
 
+    .project-card {
+        width: 10rem;
+    }
+
 }
