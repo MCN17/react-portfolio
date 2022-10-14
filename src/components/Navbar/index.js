@@ -10,11 +10,12 @@ function Navbar() {
         <div className="container-fluid">
             <nav className="nav d-flex flex-column flex-wrap">
                 <img className="mt-3 mb-3" src={portfolioPic} alt="close up of face"></img>
-                <ul>
-                    <li><Link to="/">About</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
+                <p className="name">Martin Nolan</p>
+                <ul className="text-center">
+                    <li><Link className="navbar-link" to="/">About</Link></li>
+                    <li><Link className="navbar-link" to="/projects">Projects</Link></li>
+                    <li><Link className="navbar-link" to="/contact">Contact</Link></li>
+                    <li><Link className="navbar-link" to="/resume">Resume</Link></li>
                 </ul>
                 <Footer></Footer>
             </nav>

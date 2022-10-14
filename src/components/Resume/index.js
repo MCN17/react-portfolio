@@ -9,11 +9,18 @@ function Resume() {
             <div className="row">
                 <div className="skills col">
                     <h1 className="text-center mt-5">Resume</h1>
-                    <h3>Skills</h3>
+                    <h3>Front End Skills</h3>
                     <ul>
                         <li>HTML5</li>
-                        <li>JavaScript</li>
-                        <li>CSS</li>
+                        <li>JavaScript - React</li>
+                        <li>CSS - Bootstrap</li>
+                    </ul>
+                    <h3>Back End Skills</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>MySQL</li>
+                        <li>NoSQL - MongoDB</li>
                     </ul>
                     <p>You can view my resume here!
                     <IconContext.Provider value={{ size:"2em"}}>
