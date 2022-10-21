@@ -6,9 +6,6 @@ This portfolio was made using React.js and it's purpose is to showcase my expier
 ## Website
 https://ancient-forest-51670.herokuapp.com/projects
 
-![image](https://user-images.githubusercontent.com/104735194/197228689-8e4a5301-f03c-444f-b916-5cea6ae4477d.png)
-
-
 ## Build With
 * JavaScript
 * React.js
