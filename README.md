@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## Description
-This portfolio was made using React.js and it's purpose is to showcase my expierence and skills to potential employers.
+This portfolio was made using React.js and it's purpose is to showcase my experience and skills to potential employers.
 
 ## Website
 https://mcn17.github.io/react-portfolio/
