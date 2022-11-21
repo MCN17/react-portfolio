@@ -1,12 +1,12 @@
 # React Portfolio
 
 ## Description
-This portfolio was made using React.js and it's purpose is to showcase my expierence and skills to potential employers.
+This portfolio was made using React.js and it's purpose is to showcase my experience and skills to potential employers.
 
 ## Website
-https://ancient-forest-51670.herokuapp.com/projects
+https://mcn17.github.io/react-portfolio/
 
-![image](https://user-images.githubusercontent.com/104735194/197228689-8e4a5301-f03c-444f-b916-5cea6ae4477d.png)
+![image](https://user-images.githubusercontent.com/104735194/197234273-127ebdb2-4e6f-4d0b-8207-a33c270eb1d3.png)
 
 
 ## Build With
