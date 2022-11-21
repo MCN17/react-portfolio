@@ -47,35 +47,37 @@ function Contact() {
     return (
         <div className="container">
             <div className="row justify-content-center">
-                <div class="col-lg-4 mt-5">
+                <div class="col-lg-8 mt-5">
                     <div className="text-center">
                     <h1 className="contact-body mb-3" data-testid="h1tag">Contact me</h1>
                     </div>
-                    <form id="contact-form" onSubmit={handleSubmit}>
-                        <div className="form-floating mb-2">
-                            <input className="form-control" type="text" defaultValue={name} onBlur={handleChange} name="name" placeholder="Name"></input>
-                            <label htmlFor="name">Name:</label>
-                        </div>
-                        <div className="form-floating mb-2">
-                            <input className="form-control" type="email" defaultValue={email} name="email" onBlur={handleChange} placeholder="email"></input>
-                            <label htmlFor="email">Email address:</label>
-                        </div>
-                        <div className="form-floating mb-2">
-                            <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="5" placeholder="message"></textarea>
-                            <label htmlFor="message">Message:</label>
-                        </div>
-                        {errorMessage && (
-                            <div>
-                                <p className="error-text">{errorMessage}</p>
-                            </div>
-                        )}
-                        <button className="btn " data-testid="button" type="submit">Submit</button>
-                    </form>
+                    <p> If you have any questions about my projects and would like to get in touch with me, you can email me at address is <a target="_blank" rel="noreferrer" href="mailto:martynolan17@gmail.com">martynolan17@gmail.com.</a></p>
                 </div>
             </div>
         </div>
     )
 
 }
+
+{/* <form id="contact-form" onSubmit={handleSubmit}>
+<div className="form-floating mb-2">
+    <input className="form-control" type="text" defaultValue={name} onBlur={handleChange} name="name" placeholder="Name"></input>
+    <label htmlFor="name">Name:</label>
+</div>
+<div className="form-floating mb-2">
+    <input className="form-control" type="email" defaultValue={email} name="email" onBlur={handleChange} placeholder="email"></input>
+    <label htmlFor="email">Email address:</label>
+</div>
+<div className="form-floating mb-2">
+    <textarea className="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="5" placeholder="message"></textarea>
+    <label htmlFor="message">Message:</label>
+</div>
+{errorMessage && (
+    <div>
+        <p className="error-text">{errorMessage}</p>
+    </div>
+)}
+<button className="btn " data-testid="button" type="submit">Submit</button>
+</form> */}
 
 export default Contact;
