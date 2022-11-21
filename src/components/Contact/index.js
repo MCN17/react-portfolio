@@ -51,7 +51,7 @@ function Contact() {
                     <div className="text-center">
                     <h1 className="contact-body mb-3" data-testid="h1tag">Contact me</h1>
                     </div>
-                    <p> If you have any questions about my projects and would like to get in touch with me, you can email me at address is <a target="_blank" rel="noreferrer" href="mailto:martynolan17@gmail.com">martynolan17@gmail.com.</a></p>
+                    <p> If you have any questions about my projects and would like to get in touch with me, you can email me at <a target="_blank" rel="noreferrer" href="mailto:martynolan17@gmail.com">martynolan17@gmail.com.</a></p>
                 </div>
             </div>
         </div>

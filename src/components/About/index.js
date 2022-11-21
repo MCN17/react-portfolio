@@ -7,9 +7,9 @@ function About() {
             <div className="row">
                 <div className="about-body col text-center mt-5">
                     <h1 className="mb-3">About</h1>
-                    <p> Web developer with a passion for working in teams and a background in sales, customer service, and home renovations. Currently pursuing a certificate in full stack web development from Carleton University and developed skills in HTML5, JavaScript, and CSS.
-                        Excelled in the sales industry, being able to problem solve and reach goals in high stress environments. Recipient of the Leader of the Year Award in 2012. Collaborated with team members to complete home renovation projects and developed an attention to detail.
-                        Enjoy the process of creating web applications and the research that goes into learning new methods to make them more efficient. Excited to contribute to projects and bring the teamwork skills gained to a company.</p>
+                    <p> Web developer with a passion for working in teams and a background in sales, customer service, and home renovations. Obtained a certificate in full stack web development from Carleton University and developed skills in HTML5, JavaScript, and CSS. Excelled in the sales industry, being able to problem solve and reach goals in high stress environments. 
+                        Recipient of the Leader of the Year Award in 2012. Collaborated with team members to complete home renovation projects and developed an attention to detail. Enjoy the process of creating web applications and the research that goes into learning new methods to make them more efficient.
+                        Excited to contribute to projects and bring the teamwork skills gained to a company.</p>
                 </div>    
             </div>
         </div>
