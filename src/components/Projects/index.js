@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
@@ -33,6 +34,7 @@ function Projects() {
                     </Card.Body>
                     <Card.Body className="text-center">
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                                <a  href="https://willycoxy.github.io/TopStocks/"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
                                                 <a  href="https://github.com/MCN17/TopStocks"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
@@ -53,6 +55,7 @@ function Projects() {
                     </Card.Body>
                     <Card.Body className="text-center">
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                            <a  href="https://morning-sands-74627.herokuapp.com/"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>  
                                             <a  href="https://github.com/MCN17/GameOn"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
@@ -74,6 +77,7 @@ function Projects() {
                     </Card.Body>
                     <Card.Body className="text-center">
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                        <a  href="https://mcn17.github.io/weather-dashboard/"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
                                         <a  href="https://github.com/MCN17/weather-dashboard"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
@@ -95,6 +99,7 @@ function Projects() {
                     </Card.Body>
                     <Card.Body className="text-center">
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                    <a  href="https://mcn17.github.io/work-day-scheduler/"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
                                     <a  href="https://github.com/MCN17/work-day-scheduler"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
@@ -116,6 +121,7 @@ function Projects() {
                     </Card.Body>
                     <Card.Body className="text-center">
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                <a  href="https://drive.google.com/file/d/1BkOUjm0eZGTNXGn33mcyrW7PM4wrZxgC/view?usp=sharing"><Button className="live-button" variant="dark">Demo</Button>{' '}</a>
                                 <a  href="https://github.com/MCN17/team-profile-generator"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
@@ -128,7 +134,7 @@ function Projects() {
                     <Card.Body>
                         <Card.Title className="text-center">Code Quiz</Card.Title>
                         <Card.Text className="card-body">
-                        To assess the knowledge a student has gained in this course so far and to help them prepare 
+                        The purpose of this code quiz is to assess the knowledge a student has gained in this course so far and to help them prepare 
                         for any interviews they may have where their knowledge is tested by having to answer technical coding questions.
                         </Card.Text>
                         <Card.Text className="card-body">
@@ -137,6 +143,7 @@ function Projects() {
                     </Card.Body>
                     <Card.Body className="text-center">
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                            <a  href="https://mcn17.github.io/code-quiz/"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
                             <a  href="https://github.com/MCN17/code-quiz"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
