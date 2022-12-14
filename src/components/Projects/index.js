@@ -41,7 +41,6 @@ function Projects() {
                     </Card.Body>
                 </Card>
                 </Col>
-                
                 <Col className="project-card col-lg-4 col-sm-12 mt-5">
                 <Card className="card-content h-100" style={{ }}>
                     <a href="https://floating-gorge-96818.herokuapp.com/"><Card.Img className="project-pic" variant="top" src={gameOn} /></a>
