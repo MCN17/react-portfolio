@@ -16,6 +16,7 @@ import codeQuiz from "../../assets/codeQuiz.png";
 import { FaGithub } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
 
+
 function Projects() {
     return (
         <Container>
