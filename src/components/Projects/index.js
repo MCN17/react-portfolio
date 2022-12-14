@@ -43,7 +43,7 @@ function Projects() {
                 
                 <Col className="project-card col-lg-4 col-sm-12 mt-5">
                 <Card className="card-content h-100" style={{ }}>
-                    <a href="https://morning-sands-74627.herokuapp.com/"><Card.Img className="project-pic" variant="top" src={gameOn} /></a>
+                    <a href="https://floating-gorge-96818.herokuapp.com/"><Card.Img className="project-pic" variant="top" src={gameOn} /></a>
                     <Card.Body>
                         <Card.Title className="text-center">Game On!</Card.Title>
                         <Card.Text className="card-body">
@@ -55,7 +55,7 @@ function Projects() {
                     </Card.Body>
                     <Card.Body className="text-center">
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
-                                            <a  href="https://morning-sands-74627.herokuapp.com/"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>  
+                                            <a  href="https://floating-gorge-96818.herokuapp.com/"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>  
                                             <a  href="https://github.com/MCN17/GameOn"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
