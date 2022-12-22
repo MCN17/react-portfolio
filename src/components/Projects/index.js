@@ -23,7 +23,7 @@ function Projects() {
             <Row className="projects">
                 <Col className="project-card col-lg-4 col-sm-12 mt-5">
                 <Card className="card-content h-100" style={{ }}>
-                    <a href="https://willycoxy.github.io/TopStocks/"><Card.Img className="project-pic" variant="top" src={topStocksPic} /></a>
+                    <a href="https://mcn17.github.io/TopStocks2.0/"><Card.Img className="project-pic" variant="top" src={topStocksPic} /></a>
                     <Card.Body className="card-body">
                         <Card.Title className="text-center">Top Stocks</Card.Title>
                         <Card.Text className="card-body">
