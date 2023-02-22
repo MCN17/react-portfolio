@@ -6,7 +6,9 @@ import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
-// import ListGroup from 'react-bootstrap/ListGroup';
+
+//import pictures
+import cct from "../../assets/cct.png"
 import topStocksPic from "../../assets/topStocks-pic2.png"
 import gameOn from "../../assets/gameOn.png";
 import weatherDashboard from "../../assets/weatherDashboard.png";
@@ -21,6 +23,27 @@ function Projects() {
     return (
         <Container>
             <Row className="projects">
+            <Col className="project-card col-lg-4 col-sm-12 mt-5">
+                <Card className="card-content h-100" style={{ }}>
+                    <a href="https://damp-reef-37984.herokuapp.com/" target="_blank" rel="noreferrer"><Card.Img className="project-pic" variant="top" src={cct} /></a>
+                    <Card.Body className="card-body">
+                        <Card.Title className="text-center">Cap City Trotters</Card.Title>
+                        <Card.Text className="card-body">
+                        Cap City Trotters is a social media web application where members of the bike group can post about previous or upcoming rides.
+                        Once you have created an account, you are also able to add friends and comment on each other's posts.
+                        </Card.Text>
+                        <Card.Text className="card-body">
+                            Technologies: HTML5, JavaScript, React, MongoDB, Node.js, Express.js CSS, Material UI
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="text-center">
+                        <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                                <a  href="https://damp-reef-37984.herokuapp.com/" target="_blank" rel="noreferrer"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
+                                                <a  href="https://github.com/MCN17/cct" target="_blank" rel="noreferrer"><FaGithub className="project-icons"/></a>
+                        </IconContext.Provider>
+                    </Card.Body>
+                </Card>
+                </Col>
                 <Col className="project-card col-lg-4 col-sm-12 mt-5">
                 <Card className="card-content h-100" style={{ }}>
                     <a href="https://mcn17.github.io/TopStocks2.0/" target="_blank" rel="noreferrer"><Card.Img className="project-pic" variant="top" src={topStocksPic} /></a>
@@ -50,7 +73,7 @@ function Projects() {
                         Game On is a sports forum where users can express their opinions and discuss the latest news in the sports world.
                         </Card.Text>
                         <Card.Text className="card-body">
-                            Technologies: HTML5, JavaScript, CSS, Bootstrap, Socket.io, Node.js, Handlebars.js
+                            Technologies: HTML5, JavaScript, CSS, Bootstrap, Socket.io, Node.js, Express.js Handlebars.js
                         </Card.Text>
                     </Card.Body>
                     <Card.Body className="text-center">
