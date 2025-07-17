@@ -8,7 +8,9 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
 //import pictures
+import retroClassics from "../../assets/retroClassics.png"
 import cct from "../../assets/cct.png"
+import bookList from "../../assets/bookList.png"
 import topStocksPic from "../../assets/topStocks-pic2.png"
 import gameOn from "../../assets/gameOn.png";
 import weatherDashboard from "../../assets/weatherDashboard.png";
@@ -23,6 +25,27 @@ function Projects() {
     return (
         <Container>
             <Row className="projects">
+            <Col className="project-card col-lg-4 col-sm-12 mt-5">
+                <Card className="card-content h-100" style={{ }}>
+                    <a href="https://thawing-headland-75590.herokuapp.com/" target="_blank" rel="noreferrer"><Card.Img className="project-pic" variant="top" src={retroClassics} /></a>
+                    <Card.Body className="card-body">
+                        <Card.Title className="text-center">Retro Classics</Card.Title>
+                        <Card.Text className="card-body">
+                        Retro Classics is an e-commerce web application where users can create an account and then shop for classic games from consoles such as Nintendo, Super Nintendo, N64, Playstation, and Playstation 2.
+                        Members are able to save items to their shopping cart and then checkout and pay using Stripe.
+                        </Card.Text>
+                        <Card.Text className="card-body">
+                            Technologies: HTML5, JavaScript, React, MongoDB, Redux, Stripe, Node.js, Express.js CSS, Bootstrap
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="text-center">
+                        <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                                <a  href="https://thawing-headland-75590.herokuapp.com/" target="_blank" rel="noreferrer"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
+                                                <a  href="https://github.com/MCN17/retro-classics" target="_blank" rel="noreferrer"><FaGithub className="project-icons"/></a>
+                        </IconContext.Provider>
+                    </Card.Body>
+                </Card>
+                </Col>
             <Col className="project-card col-lg-4 col-sm-12 mt-5">
                 <Card className="card-content h-100" style={{ }}>
                     <a href="https://damp-reef-37984.herokuapp.com/" target="_blank" rel="noreferrer"><Card.Img className="project-pic" variant="top" src={cct} /></a>
@@ -60,6 +83,26 @@ function Projects() {
                         <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
                                                 <a  href="https://mcn17.github.io/TopStocks2.0/" target="_blank" rel="noreferrer"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
                                                 <a  href="https://github.com/MCN17/TopStocks" target="_blank" rel="noreferrer"><FaGithub className="project-icons"/></a>
+                        </IconContext.Provider>
+                    </Card.Body>
+                </Card>
+                </Col>
+                <Col className="project-card col-lg-4 col-sm-12 mt-5">
+                <Card className="card-content h-100" style={{ }}>
+                    <a href="https://mcn17.github.io/book-list/" target="_blank" rel="noreferrer"><Card.Img className="project-pic" variant="top" src={bookList} /></a>
+                    <Card.Body className="card-body">
+                        <Card.Title className="text-center">My Book List</Card.Title>
+                        <Card.Text className="card-body">
+                        My Book List is a web application where users can keep track of and rate the books that they have read.
+                        </Card.Text>
+                        <Card.Text className="card-body">
+                            Technologies: HTML5, JavaScript, CSS.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Body className="text-center">
+                        <IconContext.Provider className="github-repo" value={{ size:"3em"}}>
+                                                <a  href="https://mcn17.github.io/book-list/" target="_blank" rel="noreferrer"><Button className="live-button" variant="dark">Live App</Button>{' '}</a>
+                                                <a  href="https://github.com/MCN17/book-list" target="_blank" rel="noreferrer"><FaGithub className="project-icons"/></a>
                         </IconContext.Provider>
                     </Card.Body>
                 </Card>
